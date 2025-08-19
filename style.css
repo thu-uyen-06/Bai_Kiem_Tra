@@ -1,0 +1,52 @@
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+.khungTren{
+    background-color:#0E1D34;
+    background-image: url(img/world-dotted-map.png);
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+    align-items: stretch;
+    color: white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+#anhNen{
+    height: 50vh;
+    width: 100%;
+}
+.menu{
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+    gap: 700px;
+    background-color: #263348;
+}
+.chuLogis{
+    display: flex;
+    align-items:first baseline;
+}
+.chucNangKhac{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: flex-end;
+    gap: 20px;
+}
+.home{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+#H1, P{
+    height: 100px;
+    width: 50%;
+}
+#P{
+    font-size: 16px;
+}
+.soLieu{
+    
+}
